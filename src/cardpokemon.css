@@ -470,7 +470,7 @@
 
 /* electric */
 .card__electric {
-    --primary-color: #f1f500;
+    --primary-color: #d3d600;
     border: solid 0.5rem var(--primary-color);
 
 }.card__electric .card__header {
