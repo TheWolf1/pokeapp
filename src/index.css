@@ -55,16 +55,16 @@ ul{
     padding: 1rem;
     font-weight: bold;
     position: absolute;
-    top: 400px;
+    top: 200px;
     right: 80px;
 }
 
 
 #pikachu__container {
-    width: 60vw;
+    width: 30vw;
     position: absolute;
     bottom: 200px;
-    left: 10px;
+    left: 600px;
 }
 
 #pikachu__container img {
