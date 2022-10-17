@@ -1,0 +1,641 @@
+:root {
+    --primary-color: red;
+}
+
+
+
+
+/* FIRE */
+.card__fire {
+    --primary-color: #e2743b;
+    border: solid 0.5rem var(--primary-color);
+}
+
+
+
+.card__fire .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgba(244, 58, 58, 1) 0%, var(--primary-color) 50%);
+}
+
+.card__fire .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__fire .card__footer span {
+    color: var(--primary-color);
+}
+
+
+.card__fire .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+/* añadir desde aqui */
+.card__fire .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__fire .pokemonInfo__abilities,
+.card__fire .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__fire .pokemonInfo__abilities h2,
+.card__fire .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__fire .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+/* GRASS */
+
+
+
+.card__grass {
+    --primary-color: #89b78a;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+
+.card__grass .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(1, 141, 196) 0%, var(--primary-color) 50%);
+}
+
+.card__grass .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__grass .card__footer span {
+    color: var(--primary-color);
+}
+
+
+.card__grass .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__grass .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__grass .pokemonInfo__abilities,
+.card__grass .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__grass .pokemonInfo__abilities h2,
+.card__grass .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__grass .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+/* WEATER */
+
+.card__water {
+    --primary-color: #5e78a1;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__water .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(1, 37, 196) 0%, var(--primary-color) 50%);
+}
+.card__water .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+.card__water .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__water .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__water .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__water .pokemonInfo__abilities,
+.card__water .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__water .pokemonInfo__abilities h2,
+.card__fire .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__water .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+
+
+/* BUG */
+.card__bug {
+    --primary-color: #07b63b;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__bug .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(40, 233, 175) 0%, var(--primary-color) 50%);
+}
+.card__bug .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+.card__bug .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__bug .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__bug .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__bug .pokemonInfo__abilities,
+.card__bug .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__bug .pokemonInfo__abilities h2,
+.card__bug .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__bug .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+/* normal */
+.card__normal {
+    --primary-color: #94cdee;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__normal .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(205, 245, 233) 0%, var(--primary-color) 50%);
+}
+.card__normal .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__normal .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__normal .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__normal .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__normal .pokemonInfo__abilities,
+.card__normal .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__normal .pokemonInfo__abilities h2,
+.card__normal .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__normal .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* figthting */
+.card__figthting {
+    --primary-color: #a4c3cd;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__figthting .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(205, 245, 233) 0%, var(--primary-color) 50%);
+}
+.card__figthting .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__figthting .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__figthting .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__figthting .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__figthting .pokemonInfo__abilities,
+.card__figthting .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__figthting .pokemonInfo__abilities h2,
+.card__figthting .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__figthting .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* poison */
+.card__poison {
+    --primary-color: #912588;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__poison .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(168, 83, 207) 0%, var(--primary-color) 50%);
+}
+.card__poison .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__poison .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__poison .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__poison .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__poison .pokemonInfo__abilities,
+.card__poison .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__poison .pokemonInfo__abilities h2,
+.card__poison .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__poison .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+
+
+/* ground */
+.card__ground {
+    --primary-color: #c2bf37;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__ground .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(202, 233, 89) 0%, var(--primary-color) 50%);
+}
+.card__ground .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__ground .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__ground .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__ground .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__ground .pokemonInfo__abilities,
+.card__ground .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__ground .pokemonInfo__abilities h2,
+.card__ground .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__ground .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+
+/* rock */
+.card__rock {
+    --primary-color: #7c7c7c;
+    border: solid 0.5rem var(--primary-color);
+
+}
+
+.card__rock .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(230, 230, 230) 0%, var(--primary-color) 50%);
+}
+.card__rock .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__rock .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__rock .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__rock .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__rock .pokemonInfo__abilities,
+.card__rock .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__rock .pokemonInfo__abilities h2,
+.card__rock .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__rock .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* ghost */
+.card__ghost {
+    --primary-color: #770571;
+    border: solid 0.5rem var(--primary-color);
+
+}.card__ghost .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(92, 88, 88) 0%, var(--primary-color) 50%);
+}
+.card__ghost .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__ghost .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__ghost .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__ghost .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__ghost .pokemonInfo__abilities,
+.card__ghost .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__ghost .pokemonInfo__abilities h2,
+.card__ghost .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__ghost .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* electric */
+.card__electric {
+    --primary-color: #f1f500;
+    border: solid 0.5rem var(--primary-color);
+
+}.card__electric .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(172, 202, 0) 0%, var(--primary-color) 50%);
+}
+.card__electric .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__electric .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__electric .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__electric .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__electric .pokemonInfo__abilities,
+.card__electric .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__electric .pokemonInfo__abilities h2,
+.card__electric .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__electric .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* ice */
+.card__ice {
+    --primary-color: #00e1ff;
+    border: solid 0.5rem var(--primary-color);
+
+}.card__ice .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(66, 200, 253) 0%, var(--primary-color) 50%);
+}
+.card__ice .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__ice .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__ice .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__ice .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__ice .pokemonInfo__abilities,
+.card__ice .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__ice .pokemonInfo__abilities h2,
+.card__ice .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__ice .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* dark */
+.card__dark {
+    --primary-color: #242424;
+    border: solid 0.5rem var(--primary-color);
+
+}.card__dark .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(117, 117, 117) 0%, var(--primary-color) 50%);
+}
+.card__dark .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__dark .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__dark .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__dark .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__dark .pokemonInfo__abilities,
+.card__dark .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__dark .pokemonInfo__abilities h2,
+.card__dark .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__dark .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
+
+/* fairy */
+.card__fairy {
+    --primary-color: #fad1d4;
+    border: solid 0.5rem var(--primary-color);
+
+}.card__fairy .card__header {
+    background: var(--primary-color);
+    background: linear-gradient(180deg, rgb(253, 197, 244) 0%, var(--primary-color) 50%);
+}
+.card__fairy .card__body {
+    margin: 0 0.5rem;
+    border-bottom: solid 1px var(--primary-color);
+    color: var(--primary-color);
+}
+
+.card__fairy .card__footer span {
+    color: var(--primary-color);
+}
+
+.card__fairy .pokemonInfo__aside-title{
+    color: var(--primary-color);
+}
+
+.card__fairy .pokemonInfo__info-item {
+    color: var(--primary-color);
+}
+
+.card__fairy .pokemonInfo__abilities,
+.card__fairy .pokemonInfo__type{
+    box-shadow: 0.5rem 0.5rem 1rem var(--primary-color);;
+    
+}
+
+.card__fairy .pokemonInfo__abilities h2,
+.card__fairy .pokemonInfo__type h2{
+    color: var(--primary-color);
+}
+
+.card__fairy .pokemonInfo__abilities-item{
+    border: solid 1px var(--primary-color);
+}
+
